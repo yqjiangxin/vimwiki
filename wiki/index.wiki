@@ -6,7 +6,8 @@
 =vim=
 编辑器之神
 
-=python=
+=[[python]]=
 简洁的编程语言
 
-[[http://yqjiangxin.github.com/vimwiki/img/sunli.jpg]]
+==[[海贼王]]==
+大爱海贼王
