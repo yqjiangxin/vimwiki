@@ -9,4 +9,4 @@
 =python=
 简洁的编程语言
 
-==[[file:~/github/vimwiki/img/sunli.jpg|孙立老狗]]==
+==[[~/github/vimwiki/img/sunli.jpg|孙立老狗]]==
