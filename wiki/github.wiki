@@ -1,0 +1,48 @@
+=github=
+
+==1.设置git==
+===1.1username email===
+{{{
+git config --global user.name "yqjiangxin"
+
+git config --global user.email "yqjiangxin@126.com"
+}}}
+===1.2生成ssh keys===
+{{{
+cd ~/.ssh
+
+rm id_rsa*
+
+ssh-keygen -t rsa -C "yqjiangxin@126.com"
+
+pac xclip
+
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+github网站Account Settings-->SSH Keys-->Add SSH key(put you key into the "Key" field)-->Add Key-->Confirm
+}}}
+===1.3test everything out===
+{{{
+ssh -T git@github.com
+}}}
+
+==2.新建repo==
+{{{
+mkdir -p ~/github/yqjiangxin/vimwiki
+
+cd ~/github/yqjiangxin/vimwiki
+
+git init
+
+touch README
+
+git add README
+
+git commit -m 'first commit'
+
+git remote add origin git@github.com:yqjiangxin/vimwiki.git
+
+git push origin master
+}}}
+
+

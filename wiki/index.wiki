@@ -9,7 +9,9 @@
 =[[python]]=
 简洁的编程语言
 
+=[[github]]=
+
 ==[[海贼王]]==
 大爱海贼王
 
-==[[http:yqjiangxin.github.com/vimwiki/img/sunli.jpg]]==
+
